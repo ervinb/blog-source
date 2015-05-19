@@ -36,7 +36,7 @@ activate :blog do |blog|
   blog.sources = "tips/posts/{title}.html"
 
   blog.paginate = true
-  blog.layout = "article_layout"
+  blog.layout = "tip_layout"
 end
 
 page "/sitemap.xml", :layout => false
